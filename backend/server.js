@@ -1,5 +1,4 @@
 
-const exp = require('constants');
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path')
@@ -23,4 +22,4 @@ app.all('*', (req, res) => {
     }
 })
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}/`))
